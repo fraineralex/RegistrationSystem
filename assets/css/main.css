@@ -1,0 +1,11 @@
+.input-error{
+    border-color: red;
+    border-width: medium;
+    color: red;
+}
+
+.input-success{
+    border-color: #25de51;
+    border-width: medium;
+    color: #25de51;
+}

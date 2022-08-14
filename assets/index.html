@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de inscripción</title>
+    <link rel="stylesheet" href="./css/lib/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/lib/toast/toastr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <h1 class="text-center mt-4"><strong>Sistema de Inscripción</strong></h1>
+</head>
+<body>
+    <div class="container mt-5 mx-0" id="container-main">
+        <div class="row mx-auto" id="container-row">
+            <div class="col-7 offset-3">
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="">Datos personales</a></li>
+                    </ul>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-header bg-success text-light">
+                        <h4 class="text-center">Datos Personales</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4 class="text-center mb-4">Rellene todos los campos a continuación</h4>
+                        </div>
+                    
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="provincia" class="form-label">Provincia</label>
+                            <input id="provincia" type="text" class="form-control">
+                        </div>
+    
+                        
+                        <div class="mb-3">
+                            <label for="ciudad" class="form-label">Ciudad</label>
+                            <input id="ciudad" type="text" class="form-control">
+                        </div>
+    
+                        
+                        <div class="mb-3">
+                            <label for="sector" class="form-label">Sector</label>
+                            <input id="sector" type="text" class="form-control">
+                        </div>
+    
+                        
+                        <div class="mb-3">
+                            <label for="calle" class="form-label">Calle</label>
+                            <input id="calle" type="text" class="form-control">
+                        </div>
+    
+                        <div class="mb-5">
+                            <label for="carrera" class="form-label">Carrera</label>
+                            <select type="radio" id="carrera" class="form-select">
+                                <option value="" selected>Seleccione una opción</option>
+                                <option value="Software">Software</option>
+                                <option value="Multimedia">Multimedia</option>
+                                <option value="Redes">Redes</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <button id="btn-save" type="button" class="btn btn-success float-end" >Registrar</button>
+                            <button id="btn-clear" type="button" class="btn btn-warning float-end me-2">Limpiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/lib/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="./js/lib//toast/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script src="./js/site/index.js"></script>    
+</body>
+</html>
